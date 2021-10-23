@@ -1,0 +1,12 @@
+.home___container {
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.home___title {
+  margin: 20px;
+}

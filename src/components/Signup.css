@@ -1,0 +1,48 @@
+.signup___container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+.signup___form {
+  display: flex;
+  flex-direction: column;
+
+  width: 30%;
+}
+
+.signup___form input,
+.signup___button {
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+}
+
+.signup___button {
+  background-color: black;
+  color: white;
+
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup___button:hover {
+  background-color: rgb(35, 35, 35);
+}
+
+.error {
+  color: #f02849;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 15px;
+  text-align: left;
+}
